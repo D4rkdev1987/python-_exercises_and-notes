@@ -6,25 +6,31 @@
 
 # print(header)
 # print(subheader)
-#-----------------------------------------------------------------------------------
+#--------------------------------------------------------------
 
+#SPLIT ALLOWS YOU TO BREAK UP EVERYTHING in a string and returns a LIST collection
 
-#SPLIT ALLOWS YOU TO BREAK UP EVERYTHING in a string
-# tags = 'python,coding,programming,development'
+#--------------------------------------------------------------
 
+#tags = 'python,coding,programming,development'
 # lists_of_tags = tags.split(',')
-# #converts into it's own stand alone string 
+
 # print(lists_of_tags)
-# 
+###converts into it's own stand alone string-it splits everything where there is a comma, converts into it's on elements
 
+#---------------------------------------------------------------
 # tags = 'python,coding,programming,development'
-
 # lists_of_tags = tags.split()
 
 # print(lists_of_tags)
+###with no arguments it prints everything into an array in a list
+
+#----------------------------------------------------------------
 
 heading = "Python: An Introduction"
 
 heading_list = heading.split(': ')
 
 print(heading_list)
+
+# above prints a list of elements

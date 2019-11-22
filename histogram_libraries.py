@@ -1,11 +1,11 @@
 """
 g $$$$$$$$$$$$$$$$$$$$
-f $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+f $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$    # 4 different elements(data points) -(sales data)
 t $$$$$$$$$$
 o $$$$$$$$$$$$
 """
-#type of chart in statistics for patterns
-#4 different elements (sales data)
+#type of chart in statistics for patterns and see trends of data
+
 #then each element rep. sale count
 # utitlize 4 * 'w'
 

@@ -5,7 +5,7 @@ for letter in alphabet:
 
 """
 you have a string here 
-a for in loop allows you to ccess them just like a string
+a for in loop allows you to access them just like a string/collection
 'a', 'b', 'c', 'd' ect
 
 

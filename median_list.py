@@ -14,7 +14,7 @@ sale_prices = [
   83,
   220,
   40,
-  100,
+  105,
   400,
   10,
   1,
@@ -37,7 +37,7 @@ print(median)
 #created a list and stored in variable and counted the amount inside
 #took the number of elements divided by to
 #then requested the bottom half
-#then grabbed the first slic and the second slic and leaving the median alone
+#then grabbed the first slice and the second slic and leaving the median alone
 
 
 

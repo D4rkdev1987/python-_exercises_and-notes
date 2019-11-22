@@ -1,19 +1,17 @@
-"""
-2 list and we want to combine them---
-append is in the list data type---
-utilized for in loop
-iterating through Alice and Bob and with each loop calling new customers list
-and then append the new_customers
-"""
+# merge multiple lists
 
-legacy_customers = ['Alice', 'Bob']
-new_customers = ['Tiffany', 'Kristine']
+legacy_customers = ['Alice', 'Bob']      
+new_customers = ['Tiffany', 'Kristine']  
 
-raw_db = [legacy_customers, new_customers]
-
+raw_db = [legacy_customers, new_customers]  # raw database is equal to combine legacy customers and new customers 
 print(raw_db) # this creates2 list inside a list
 
-for legacy_customer in legacy_customers:
-  new_customers.append(legacy_customer)
+#-------------------------------------------------------
 
-print(new_customers)
+#combining all strings as seperate elements
+#iterating over customer lists and for each loop calling new customers list and tacking on the new elements
+
+for legacy_customer in legacy_customers:  # say for legacy customer in the customers
+  new_customers.append(legacy_customer)   # call new customers list and call the append function and then legacy customer
+
+print(new_customers)   # Prints Tiffany Kristine Alice and Bob in one list          

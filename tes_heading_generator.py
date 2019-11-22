@@ -5,8 +5,8 @@ def heading_generator(h_string,h_size,p_list):
     for p_text in p_list:
         heading_code += f"\n<p>{p_text}</p>"
     return heading_code
-
 print(heading_valid)
+
 heading_type = int(input("Please select a number from 1 to 6 for your heading type, then press enter: ").strip())
 while heading_type not in heading_valid:
     heading_type = int(input("Invalid. Please type a number 1 through 6, then press enter: ").strip())
@@ -22,5 +22,4 @@ while True:
     else:
         p_num += 1
         paragraph_list.append(paragraph)
-
 print(heading_generator(title,heading_type,paragraph_list))

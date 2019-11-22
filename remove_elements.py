@@ -1,8 +1,8 @@
-users = ["kristnine", 'Tiffany', 'Jordan', 'Leann']
+users = ["kristnine", 'Tiffany', 'Jordan', 'Leann']  #list of users-database query
 
 print(users)
 
-users.remove('Jordan') #remove takes an arguement and the value we are removing
+users.remove('Jordan') #remove function takes an arguement- the value we are removing
 
 print(users)
 

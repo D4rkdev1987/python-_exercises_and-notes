@@ -24,7 +24,7 @@ manual_exponent(10,2)
 
 
 #----Functional approach below---------------------------------------------------------------------------
-# lambda = an function without a name anonyanous function
+# lambda = an function without a name anonyanous function-takes in total and element
 reduce iterates over a list and then runs whatever process you tell it to run,
 in this case its the lambda function- and keeps the state
 """
