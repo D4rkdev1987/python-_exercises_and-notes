@@ -6,12 +6,13 @@ receipt = "Your total is " + str(total) # <--want the reciept with a string plus
 print(receipt) 
 
 
-# Booleans
-# Numbers
-# Strings wrapper with single or double qutation marks
-# Bytes and byte arrays
-# None-define a variable but don't want to set the value yet, you use none
-# Lists-managing collections
+# Booleans- true or false value
+# Numbers- anything from standard integers all the way to decimals and floating point numbers (can be connected to number based libraries)
+# Strings- wrapper with single or double quotation marks (name, html doc ect)
+# Bytes and byte arrays-used in tasks such as images on byte level 
+# None-if define a variable but you don't want to set the value yet, you use none
+# DATA STRUCTURE CATEGORY BELOW
+# Lists-managing collections-similar to an array gives a list of items
 # Tuples-managing collections
 # Sets-managing collections
-# Dictionaries-managing collections-give ability to have key value pairs
+# Dictionaries-managing collections-gives ability to have key value pairs

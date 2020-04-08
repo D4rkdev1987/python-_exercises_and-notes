@@ -4,7 +4,7 @@ def greeting(name = 'Guest'):   # default argument is "guest" in here
 greeting()
 greeting('Kristine')
 
-# Nope and VERY WRONG WAY
+# Nope and VERY WRONG WAY--default arg as list--#-----##-----###----####----#####-----######-----#######---########----##########
 def some_function(collection = []):  # function some_function passed in a collection that expects a list
   collection.append(1)         # call collection.append(1)--this goes to our collection and appends #1
   print(id(collection))      # print the id(place in memory on computer) for the collection

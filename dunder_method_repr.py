@@ -9,6 +9,9 @@ class Invoice:
     def __repr__(self):                                # dunder repr similar to str but used for raw output not formatted nice example error logs
       return f"Invoice({self.client}, {self.total})"   # return and format the invoice
 
+    # def __repr__(self):    
+    #     return f"Invoice <value: client: {self.client}, total: {self.total}>'
+
 
 inv = Invoice('Google', 500)
 print(str(inv))    

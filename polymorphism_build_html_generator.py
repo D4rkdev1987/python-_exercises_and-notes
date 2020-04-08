@@ -21,7 +21,7 @@ tags = [Div('Some content'), Heading('My Amazing Heading'), Div('Another div')] 
 #then heading element and pass in content
 # and then Div 
 for tag in tags:                               # iterate through the list
-    print(str(tag) + ': ' + tag.render())      # print out the string value(tag-string representation) concat a colon and call the render function
-    print(tag.render())                        # rendered your own HTML here
+    print(str(tag) + ': ' + tag.render())      # debugging purpose print out the string value(tag-string representation) concat a colon and call the render function
+    print(tag.render())                        # rendered your own HTML here, created an abstract class, with child class and it printed
 
 # poly means many and morphism is change so basically many changes -Polymorphism    

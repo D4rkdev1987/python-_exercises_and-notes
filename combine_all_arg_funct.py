@@ -9,8 +9,9 @@
 # print formatted key and value
 # 
 # call the greeting when passing in a large number of arguments list them on different lines
-# now place in the name kristine and last name hudgens -set of items -tuple arguments
-# now for the args unpacked- first dish washer, second puupper outside and third is homework --key word arguments
+# pass in the positional argument
+# now (args) place in the name kristine and last name hudgens -set of items -tuple arguments
+# now for the kwargs- first dish washer, second puupper outside and third is homework --key word arguments
 """
 
 def greeting(time_of_day, *args, **kwargs):

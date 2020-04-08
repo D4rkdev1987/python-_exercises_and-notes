@@ -12,6 +12,10 @@ long_string = '\nNullam id dolor id nibh ultricies vehicula ut id elit. Nullam q
 
 print(long_string)
 
+# to add mutliple strings/paragraphs together 
+new_string = content + long_string
+print (new_string)
+
 
 # repr function is a method that takes in a single argument-takes content in and returns a different process
 # repr returns what the computer processes 

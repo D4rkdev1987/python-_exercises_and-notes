@@ -12,7 +12,7 @@
 #------------------------------------------------------------------
 username = 'jonsnow'                # variable equals Jonsnow
 
-if username !== 'jonsnow':          # opposite or flipped the logic
+# if username != 'jonsnow':          # opposite or flipped the logic
 if username == 'jonsnow':           # if jonsnow is equal to jonsnow 
     print('welcome')                # display welcome
 else:                               # if now

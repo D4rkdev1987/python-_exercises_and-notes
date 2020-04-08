@@ -1,6 +1,6 @@
-#lists []
-#dictionary {}
-#tuple ()
+#lists uses []
+#dictionary uses {}
+#tuple uses ()
 
 #Tuple: immutable-- tuple not sortable-cannot be changed
 #List: mutable-can be changed

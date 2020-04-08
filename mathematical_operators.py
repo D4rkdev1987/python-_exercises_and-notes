@@ -14,7 +14,7 @@ print(100 / 42.3)
 
 print('---')
 
-print('Floor Division')  #rounds to the nearest whole number
+print('Floor Division')  #rounds to the nearest lowest whole number
 print(100 // 42)
 print(100 // 38)
 

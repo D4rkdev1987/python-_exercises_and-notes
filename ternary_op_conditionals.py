@@ -14,7 +14,7 @@ print(auth)
 
 # traditional syntax below---basic conidtional similar to above but without ternary 
 if role == 'admin':   # if the role is equal to admin
-    'can access'      #they can access
+    auth = 'can access'      #they can access
 else:                      # if not 
     auth = "cannot access"    # authentication is they cannot access
 

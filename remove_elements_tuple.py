@@ -11,13 +11,13 @@ post = ('Python Basics', 'Intro guide to Python', 'Some cool python content', 'p
 #brings in slice of element 1 2 3 and stop before last one
 
 post = post[:-1]
-
+#---------------------------------------------------------
 # Removing elements from beginning
 # just remove the second argument 
 # only grab elements and skip first element
 
 post = post[1:]
-
+#---------------------------------------------------------
 # Removing specific element (messy/not recommended)
 # perform reassignment
 # convert into a list

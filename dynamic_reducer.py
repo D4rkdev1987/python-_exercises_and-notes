@@ -1,8 +1,8 @@
 """
 dynamic_reducer([1,2,3,4], '+') # 6
-dynamic_reducer([1,2,3,4], '-') # 6
-dynamic_reducer([1,2,3,4], '*') # 6
-dynamic_reducer([1,2,3,4], '/') # 6
+dynamic_reducer([1,2,3,4], '-') # -8
+dynamic_reducer([1,2,3,4], '*') # 24
+dynamic_reducer([1,2,3,4], '/') # 
 """
 
 import operator

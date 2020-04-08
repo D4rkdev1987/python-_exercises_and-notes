@@ -12,7 +12,7 @@ class Div:                              # div class
   def render(self):                        
     return f'<div>{self.content}</div>'    
 
-div_one = Div('Some content')              # stored in variables
+div_one = Div('Some content')              # stored in variables do not put commas after or it will return a tuple error
 heading = Heading('My Amazing Heading')    
 div_two = Div('Another div')                
                                            # behavior is identical-use below if don't have a lot of shared behavior but call the same function

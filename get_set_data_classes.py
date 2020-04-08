@@ -1,3 +1,5 @@
+# getter and setter functions- to add data to a function
+# this isn't best practice but good to know!
 class Invoice:
     
     def __init__(self, client, total):

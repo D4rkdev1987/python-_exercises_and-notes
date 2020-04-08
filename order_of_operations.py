@@ -1,5 +1,5 @@
 """
-Please -> Parans ()
+Please -> Parens ()
 Excuse -> Exponents **
 My -> Multiplication *
 Dear -> Division /

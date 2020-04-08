@@ -20,4 +20,4 @@ print(tiffany.active_users()) # to have acess to the active users method
 print(tiffany.greeting())  # will print the full greeting because of inheritance-it works the child class has access to the attributes as the parent class and add on from there
 print(kristine.active_users()) # if you try to have kristine access
 
-# ability to create specialized classes
+# inheritance is the ability to create specialized classes

@@ -1,0 +1,17 @@
+Python 3.6.8
+
+pipenv-1
+Machine Learning
+--requests - 1.2
+
+later on build a new python program
+
+
+pipenv -2
+Django web API
+--requests - 2.0 <- required this version though
+
+Above DEPENDECY CONFLICT using 2 different versions
+
+PIPENv will create a wrapper around the machine learning and reuqests is set inside the virtual 
+environment 

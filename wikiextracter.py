@@ -4,8 +4,8 @@ import wikipedia
 print(wikipedia.summary("Python Programming Language"))
 
 # search for a term
-result = wikipedia.search("Battleship")
-print("Result search of 'Battleship':", result)
+result = wikipedia.search("Python Coding")
+print("Result search of 'Python Coding':", result)
 
 # get the page: Neural network
 page = wikipedia.page(result[0])
