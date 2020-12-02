@@ -19,7 +19,7 @@ elementID.send_keys(password)
 
 elementID.submit()
 
-link = 'https://www.linkedin.com/in/rishabh-singh-61b706114/'
+link = 'https://www.linkedin.com/in/benjamin-nicklaus-561288145'
 browser.get(link)
 
 
