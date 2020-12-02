@@ -20,10 +20,6 @@ elementID.send_keys(password)
 elementID.submit()
 
 link = 'https://www.linkedin.com/in/rishabh-singh-61b706114/'
-# link = 'https://www.linkedin.com/in/simran-gandhi-024593128/'
-# link = 'https://www.linkedin.com/in/smriti-handa-0636045/'
-# link = 'https://www.linkedin.com/in/charan-nadendla-858a17120/'
-# link = 'https://www.linkedin.com/in/mayank-agrawal-1a5883148/'
 browser.get(link)
 
 
